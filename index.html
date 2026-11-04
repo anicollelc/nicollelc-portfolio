@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
 <title>Nicolle Lumagui Cruz | Operations & Marketing Leader</title>
 <meta name="description" content="Portfolio of Nicolle Lumagui Cruz: operations and marketing leader across corporate FMCG, a UAE digital agency and a remote US growth company.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +14,10 @@
 :root{--maroon:#7A1F2B;--deep:#4A0F18;--black:#161616;--white:#fff;--blush:#F7EFF0;--rose:#C9848E;--grey:#6E6E6E;--line:#E3D3D6;
   --serif:'Playfair Display',Cambria,Georgia,serif;--sans:'Lato',Calibri,Arial,sans-serif}
 *{box-sizing:border-box;margin:0;padding:0}
+:root{color-scheme:light only}
+html{background:#fff;color:#161616}
+section,.card,.tool,.gap,.tl,.step,td,table,h1,h2,h3,p,li,b{color:var(--black)}
+.muted{color:var(--grey)}
 html{scroll-behavior:smooth}
 body{font-family:var(--sans);color:var(--black);background:var(--white);line-height:1.55;font-size:17px}
 a{color:inherit}
@@ -112,6 +118,11 @@ td:first-child{font-weight:700}td:last-child{color:var(--maroon)}
 .lead p{color:#d9c3c7;max-width:700px;margin-top:22px;font-size:18px}
 .contact{display:flex;flex-wrap:wrap;gap:32px;margin-top:46px}
 .contact a{color:#fff;text-decoration:none;border-bottom:1px solid var(--rose);padding-bottom:2px}
+nav *,.hero,.hero *,.band,.band *,.lead,.lead *,.card.dark,.card.dark *,.card.maroon,.card.maroon *,th{color:#fff}
+.hero .kicker,.hero .role,.lead .kicker,.card.dark .kicker,.kolbe .big{color:var(--rose)}
+.band .kicker,.maroon .date{color:#e9cfd3}
+.card.dark .muted,.lead p{color:#d9c3c7}
+.hero .tag{color:#fff}
 footer{background:var(--black);color:#888;font-size:13px;padding:26px 0;border-top:1px solid #2a2a2a;letter-spacing:.08em}
 @media (max-width:900px){
   nav ul{display:none}
